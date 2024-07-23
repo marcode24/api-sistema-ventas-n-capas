@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SistemaVenta.Model;
+﻿namespace SistemaVenta.Model;
 
 public partial class Usuario
 {
@@ -15,7 +12,7 @@ public partial class Usuario
 
     public string? Clave { get; set; }
 
-    public bool? EsActivo { get; set; }
+    public bool? EsActivo { get; set; }   
 
     public DateTime? FechaRegistro { get; set; }
 
